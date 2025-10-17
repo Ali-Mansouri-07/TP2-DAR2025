@@ -60,7 +60,7 @@ public class Client {
             // Fermeture des ressources
             scanner.close();
             br.close();
-            pw.close();
+            pw.close(); 
             socket.close();
 
         } catch (UnknownHostException e) {
